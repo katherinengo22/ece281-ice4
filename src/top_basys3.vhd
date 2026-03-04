@@ -99,9 +99,9 @@ begin
             i_C     => sw(0),
             i_reset => btnC,
             i_clk   => w_clk,
-            o_R     => JA(2),
+            o_R     => JA(0),
             o_Y     => JA(1),
-            o_G     => JA(0)
+            o_G     => JA(2)
         );
 
 
